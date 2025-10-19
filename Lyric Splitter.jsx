@@ -1,5 +1,6 @@
 // Lyric Splitter Script for After Effects
 // Splits a text file into word layers
+// Created by https://github.com/PurpleCokeAE
 
 var comp = app.project.activeItem;
 if (!(comp instanceof CompItem)) {
@@ -28,4 +29,5 @@ if (!(comp instanceof CompItem)) {
         file.close();
         app.endUndoGroup();
     }
+
 }
